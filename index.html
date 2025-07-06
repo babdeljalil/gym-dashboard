@@ -3,7 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Login Page</title>
   </head>
-  <body></body>
+  <body class="flex items-center justify-center h-screen bg-gray-100">
+    <form action="" method="post">
+      <h1 class="text-2xl font-bold mb-4">Login</h1>
+
+      <div>
+        <label for="">Username:</label>
+        <br />
+        <input type="text" name="username" id="" class="border" required />
+      </div>
+
+      <div class="my-4">
+        <label for="">Password:</label>
+        <br />
+        <input type="password" name="password" id="" class="border" required />
+      </div>
+
+      <input type="submit" value="Login" class="border py-1 px-3" />
+    </form>
+  </body>
 </html>
